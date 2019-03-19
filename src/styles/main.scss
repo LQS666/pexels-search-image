@@ -19,13 +19,15 @@ body {
     height: 100vh;
 
     form {
+        position: relative;
+
         input {
-            font-size: 30px;
+            font-size: 24px;
             border: 2px solid #ecf0f1;
             border-radius: 20px;
             margin: 0;
             outline: 0;
-            padding: 30px 50px;
+            padding: 20px 30px;
             height: 1.8em;
 
             &:focus {
@@ -36,7 +38,7 @@ body {
         ::placeholder {
             color: #7f8c8d;
             font-family: 'Montserrat', sans-serif;
-            font-size: 30px;
+            font-size: 24px;
         }
     }
 }
