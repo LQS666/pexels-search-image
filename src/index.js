@@ -1,2 +1,2 @@
-import { script } from './assets/script.js'
-import './styles/main.scss'
+import { script } from './assets/script.js';
+import './styles/main.scss';
