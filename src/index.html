@@ -8,14 +8,20 @@
     <title>Pexels Search Image</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="./dist/css/lightbox.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
+        <h3>Znajdź zdjęcia z <a class="pexels" href="http://pexels.com">pexels.com</a></h3>
         <form class="form">
-            <input id="search" class="searchInput" type="text" name="searchInput" autocomplete="off">
+            <input id="search" class="searchInput" type="text" name="searchInput" autocomplete="off" autofocus>
         </form>
+        <div class="error"></div>
+        <div class="photosList"></div>
     </div>
+    <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
     <script src="./index.js"></script>
 </body>
 
