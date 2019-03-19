@@ -2,7 +2,8 @@ const inputPlaceholder = document.getElementById("search");
 const txt = [
     "Wyszukaj zdjęcia",
     "Wpisz frazę",
-    "np. forest, animals, sea"
+    "np. forest, animals, sea",
+    "Wyszukaj zdjęcia"
 ]
 let activeLetter = -10;
 let activeText = 0;

@@ -29,9 +29,12 @@ body {
             outline: 0;
             padding: 20px 30px;
             height: 1.8em;
+            color: #7f8c8d;
+            box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.02);
 
             &:focus {
                 border: 2px solid #2ecc71;
+                box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.11);
             }
         }
 
