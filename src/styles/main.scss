@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    form {
+        input {
+            font-size: 30px;
+            border: 2px solid #ecf0f1;
+            border-radius: 20px;
+            margin: 0;
+            outline: 0;
+            padding: 30px 50px;
+            height: 1.8em;
+
+            &:focus {
+                border: 2px solid #2ecc71;
+            }
+        }
+
+        ::placeholder {
+            color: #7f8c8d;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+        }
+    }
+}
